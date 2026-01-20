@@ -1,0 +1,11 @@
+- Proof by direct containment
+- Proof by direct proof with inequalities
+- Proof by contradiction: demonstrate that the statement is true by showing that it cannot be false
+	- [[Contrapositive proof]]
+	- Example: [[Theorem 1.2.6]]
+- Proof by induction: 
+	- if S is some subset of N with the property that
+		- S contains 1
+		- Whenever S contains a natural number n, it also contains n + 1
+	- then it must be that S = N
+	- Example: [[Example 1.2.7]]
