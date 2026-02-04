@@ -1,0 +1,1 @@
+The limit of a sequence, when it exists, must be unique.

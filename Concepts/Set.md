@@ -2,6 +2,8 @@ Any collection of objects, e.g. a set of real numbers
 
 **Notation:** $x \in A$, $x \notin A$
 
+A set $A$ is countable if $N \sim A$. An infinite set that is not countable is called an infinite set.
+
 ### Examples
 - $S = \{ r \in Q: r^2 < 2 \}$
 	- Let S be a set of all rational numbers whose squares are less than 2
@@ -13,3 +15,4 @@ Any collection of objects, e.g. a set of real numbers
 - [[Union]] of sets
 - [[Intersection]] of sets
 - [[De Morgan's laws]]
+- [[Cardinality]]

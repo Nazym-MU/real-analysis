@@ -1,0 +1,1 @@
+A function $f$ is onto if, given any $b \in B$, it is possible to find an element $a \in A$ for which $f(a) = B$.

@@ -1,0 +1,12 @@
+1. The set $Q$ is countable. 
+2. The set $R$ is uncountable.
+
+**Proof:**
+1. Set $A_1 = \{ 0 \}$ and for each $n \geq 2$, let $A_n$ be the set given by $$A_n = \begin{cases}  \pm \frac{p}{q}: \text{ where } p, q\in \mathbb N \text{ are in lowest terms with } p+q=n \end{cases}$$The first few sets are: $$A_1 = \{ 0 \}, \quad A_2 = \{ \frac{1}{1}, -\frac{1}{1} \}, \quad A_3 = \{ \frac{1}{2}, -\frac{1}{2}, \frac{2}{1}, -\frac{2}{1} \}, \quad A_4 = \{ \frac{1}{3}, -\frac{1}{3}, \frac{3}{1}, -\frac{3}{1} \}$$Observe that each $A_n$ is finite and every rational number appears in exactly one of these sets. Every set is disjoint, and if the first few sets are finite, then the rest must be as well (by induction).
+2. Proof by contradiction. Assume there does exist a 1-1, onto function $f: N \to R$. It is possible to enumerate the elements of $R$. If we let $x_1 = f(1)$, $x_2 = f(2)$, and so on, then our assumption that $f$ is onto means that we can write $R = \{x_1, x_2, x_3, ...\}$ and be confident that every real number appears somewhere on this list. Now use the [[Theorem 1.4.1. Nested Interval Property]] to produce a real number that is not there. Let $I_1$ be a closed interval that does not contain $x_1$. Next, let $I_2$ be a closed interval, contained in $I_1$, which does not contain $x_2$. Certainly $I_1$ contains two smaller disjoint closed intervals, and $x_2$ can only be in one of them. In general, given an interval $I_n$, construct $I_{n+1}$ to satisfy
+	1. $I_{n+1} \subseteq I_n$, and
+	2. $x_{n+1} \notin I_{n+1}$. 
+	Now consider an intersection $\bigcap^\infty_{n=1}I_n$. If $x_{n_0}$ is some real number from the list $R = \{x_1, x_2, x_3, ...\}$, then we have $x_{n_0} \notin I_{n_0}$, and it follows that $x_{n_0} \notin \bigcap^\infty_{n=1}I_n$.
+	Now, assuming $R = \{x_1, x_2, x_3, ...\}$ contains every real number, this leads to the conclusion that $\bigcap^\infty_{n=1}I_n = \emptyset$. However, NIP asserts that $\bigcap^\infty_{n=1}I_n \neq \emptyset$. By NIP, there is at least one $x$ that cannot be on the list in $R = \{x_1, x_2, x_3, ...\}$. This contradiction means that such an enumeration of $R$ is impossible, and we conclude that $R$ is an uncountable set.
+
+Conclusion: every subset of a countable set must be either countable or finite.

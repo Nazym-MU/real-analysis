@@ -1,0 +1,1 @@
+Given set $A$, the power set $P(A)$ refers to the collection of all subsets of $A$. 

@@ -1,0 +1,2 @@
+1. If $A_1, A_2, ... A_m$ are each countable sets, then the union $A_1 \cup A_2 \cup \dots \cup A_m$ is countable.
+2. If $A_n$ is a countable set for each $n \in N$, then $\bigcup_{n=1}^\infty A_n$ is countable. 

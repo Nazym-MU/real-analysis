@@ -1,0 +1,1 @@
+If $A \subseteq B$ and $B$ is countable, then $A$ is either countable or finite.
