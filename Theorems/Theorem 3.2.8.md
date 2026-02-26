@@ -1,0 +1,1 @@
+A set $F \subseteq \mathbb R$ is closed if and only if every Cauchy sequence contained in $F$ has a limit that is also an element of $F$.

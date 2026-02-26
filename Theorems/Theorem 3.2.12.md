@@ -1,0 +1,1 @@
+For any $A ⊆ \mathbb R$, the closure $A$ is a closed set and is the smallest closed set containing $A$.

@@ -1,0 +1,5 @@
+A set $O$ is open if and only if $O^c$ (complement) is closed. Likewise, a set $F$ is closed if and only if $F^c$ is open.
+
+**Proof:**
+1. Given an open set $O ⊆ \mathbb R$, WTS $O^c$ is a closed set, i.e., contains all of its limit points. If $x$ is a limit point of $O^c$, then every neighborhood of $x$ contains some point of $O^c$. $x$ cannot be in the open set $O$ because $x ∈ O$ would imply that there exists a neighborhood $V_ϵ(x) ⊆ O$. $\ \therefore \ x ∈ O^c$.
+2. Assume $O^c$ is closed. Thus, given an arbitrary point $x ∈ O$, we must produce an $ϵ$-neighborhood $V_ϵ(x) ⊆ O$. Because $O^c$ is closed, we know $x$ is not a limit point of $O^c$. There must be some neighborhood $V_ϵ(x)$ of $x$ that does not intersect the set $O^c$. This means $V_ϵ(x) ⊆ O$. $\ \therefore$ open set.

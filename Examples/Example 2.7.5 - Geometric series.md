@@ -1,0 +1,3 @@
+A series is called geometric if it is of the form $$\sum_{k=0}^\infty ar^k = a + ar + ar^2 + ar^3 + \cdots.$$
+If $r = 1$ and $a \neq 0$, then the series eventually diverges. For $r\neq 1$, the algebraic identity $$(1-r)(1 + r + r^2 + r^3 + \cdots + r^{m-1}) = 1 - r^m$$ enables us to rewrite the partial sum $$s_m = a + ar + ar^2 + ar^3 + \cdots + ar^{m-1} = \frac{a(1-r^m)}{1-r}.$$
+Use [[Theorem 2.3.3 - Algebraic Limit Theorem]] to justify the conclusion that $$\sum^\infty_{k=1}ar^k = \frac{a}{1-r}$$ if and only if $|r| < 1$.

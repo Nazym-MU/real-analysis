@@ -1,0 +1,1 @@
+For every $y \in \mathbb R$, there exists a sequence of rational numbers that converges to $y$.

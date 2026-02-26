@@ -1,0 +1,3 @@
+Let $\sum_{k=1}^\infty a_k$ be a series. A series $\sum_{k=1}^\infty b_k$ is called a rearrangement of $\sum_{k=1}^\infty a_k$ if there exists a one-to-one, onto function $f: \mathbb N \to \mathbb N$ s.t. $b_{f(k)} = a_k \ \forall \ k \in \mathbb N$.
+
+The problem in section 2.1 with a rearrangement of the alternating harmonic series that converges to a limit different from that of the original series happened because the convergence is conditional (see [[Absolute and conditional convergence of a series]]).
